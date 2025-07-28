@@ -9,3 +9,8 @@
 .header-content {
     padding: 20px;
 }
+
+.header-content .title {
+    display: flex;
+    justify-content: center;
+}
