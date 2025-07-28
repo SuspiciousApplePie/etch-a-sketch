@@ -17,3 +17,8 @@
     display: flex;
     justify-content: center;
 }
+
+.main-class .sketch-box {
+    display: flex;
+    border: 1px solid#333;
+}
