@@ -24,12 +24,12 @@
     gap: 10px;
 }
 .main-content .sketch-box {
-    display: flex;
+    /* display: flex; */
     border: 1px solid #333;
     height: 450px;
     width: 450px;
-    flex: 1;
-    flex-wrap: wrap;
+    /* flex: 1;
+    flex-wrap: wrap; */
 }
 
 .cell {
