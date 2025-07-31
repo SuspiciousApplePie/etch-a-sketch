@@ -36,8 +36,6 @@ body {
 .main-content .sketch-box {
     /* display: flex; */
     border: 1px solid #333;
-    height: 450px;
-    width: 450px;
     flex: 1;
 }
 
