@@ -3,4 +3,4 @@
 2. Selecting this button will trigger a prompt.
 3. Prompt will what is the side of box.
 4. check if box is more than 100, or less than one trigger an alert.
-5. if false, run the box generator function.
+5. if false, return the generateBoxes containing `boxes` variable.
