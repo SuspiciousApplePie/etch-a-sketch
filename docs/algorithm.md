@@ -22,3 +22,5 @@
         1. create a div element
         2. set its class to `cell`
         3. return to `rowGenerator`
+
+# changeColor function
