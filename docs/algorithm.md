@@ -25,4 +25,10 @@
         1. append it inside `sketch-box` element
         3. return to `rowGenerator`
 
-# changeColor function
+# changeCellColor function
+1. select the `main-content` element.
+2. add a `mouseover` event listener on it.
+3. if the event target class is `cell`
+1. get the rgb color using `generateColors` function
+4. change the color using `generateColors` attributes, which is rgb.
+5. set the opacity of by adding 1.
