@@ -12,6 +12,8 @@ function initGrid (size) {
             alert('Please enter a number');
         } else if (convertSize < 1 || convertSize > 100) {
             alert('Your input is lower than 1 or higher than 100');
+        } else {
+            console.log('clearBox');
         };
     })
 }
