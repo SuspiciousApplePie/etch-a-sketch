@@ -32,5 +32,9 @@
 
 # generateColor function
 1. generate a number using math random, dont exceed to 255 and store to let `red`
-2. repeat step and store it to let `green`, and `blue`.
-3. return all of it in array format.
+
+# clearBox functon
+1. select all `sketch-row` element
+1. if any exists
+    1. loop through each
+    1. remove each of it
