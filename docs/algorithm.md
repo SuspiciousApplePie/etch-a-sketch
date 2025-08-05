@@ -1,25 +1,25 @@
 # initGrid function.
 1. Add event listener to button in adjust-button section.
 1. Selecting this button will trigger a prompt.
-1. Prompt will ask whats the size of the box store it on `boxes`
+1. Prompt will ask whats the size of the box store it on `size`
 1. check if input is more than 100, or less than one trigger an alert.
 1. check if input is not number and trigger an alert.
 1. if false:
     1. call clearBox
-    1. pass the boxes to `generateBox`
+    1. pass the size to `generateBox`
 
 # init function.
-1. create a `let` that takes a number value named `boxes`
-1. use `boxes` to `setBoxValue` parameter.
+1. create a `let` that takes a number value named `size`
+1. use `size` to `setBoxValue` parameter.
 
 # generateBox function
 1. select the `sketch-box` class within the .main-content element.
-1. create a for loop (`rowGenerator`) with a variable `row` with a value starting 0, while it is less than `boxes`
+1. create a for loop (`rowGenerator`) with a variable `row` with a value starting 0, while it is less than `size`
     ### In each iteration of `rowGenerator`
     1. create a div element
     1. set its class to `sketch-row`
     1. append it inside `sketch-box`
-    1. create a for loop (`cellGenerator`) with a variable `cell` with a value starting 0, while it is less than `boxes`
+    1. create a for loop (`cellGenerator`) with a variable `cell` with a value starting 0, while it is less than `size`
         ### in each iteration of `cellGenerator`
         1. create a div element
         1. set its class to `cell`
