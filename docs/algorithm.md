@@ -10,7 +10,7 @@
 
 # init function.
 1. create a `let` that takes a number value named `size`
-1. use `size` to `setBoxValue` parameter.
+1. use `size` to `initGrid` parameter.
 
 # generateBox function
 1. select the `sketch-box` class within the .main-content element.
