@@ -38,10 +38,16 @@
 
 # generateColor function
 1. generate a number using math random thrice, assign it on `red`, `green`, `blue` variables
-2. return it as a list in red, green, blue format. 
+1. return it as a list in red, green, blue format. 
 
 # clearBox functon
 1. select all `sketch-row` element
 1. if any exists
     1. loop through each
     1. remove each of it
+
+# Tech Stack:
+Front-end:
+ - HTML (UI)
+ - CSS (UI)
+ - JavaScript (Interactivity)
