@@ -1,4 +1,4 @@
-# setBoxValue function.
+# initGrid function.
 1. Add event listener to button in adjust-button section.
 1. Selecting this button will trigger a prompt.
 1. Prompt will ask whats the size of the box store it on `boxes`
@@ -8,7 +8,7 @@
     1. call clearBox
     1. pass the boxes to `generateBox`
 
-# Init function.
+# init function.
 1. create a `let` that takes a number value named `boxes`
 1. use `boxes` to `setBoxValue` parameter.
 
