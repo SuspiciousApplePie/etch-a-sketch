@@ -13,17 +13,17 @@
 1. use `boxes` to `setBoxValue` parameter.
 
 # generateBox function
-1. make a for statement, set a variable called `row` with value of 0, it should not be bigger in the `boxes` value, each iteration should add 1 on row value, label this loop `rowGenerator`
-    ### While inside `rowGenerator` loop.
-    1. make another loop similar to the previous for loop but name the loop variable `cell` label this `cellGenerator`.
+1. select the `sketch-box` class within the .main-content element.
+1. create a for loop (`rowGenerator`) with a variable `row` with a value starting 0, while it is less than `boxes`
+    ### In each iteration of `rowGenerator`
     1. create a div element
     1. set its class to `sketch-row`
     1. append it inside `sketch-box`
-        ### while inside `cellGenerator` loop
+    1. create a for loop (`cellGenerator`) with a variable `cell` with a value starting 0, while it is less than `boxes`
+        ### in each iteration of `cellGenerator`
         1. create a div element
         1. set its class to `cell`
-        1. append it inside `sketch-row` element
-        1. return to `rowGenerator`
+        1. append it to `sketch-row`
 
 # changeCellColor function
 1. select the `sketch-box` element.
@@ -31,7 +31,7 @@
 1. if the event target class is `cell`
 1. get the rgb color using `generateColors` function
 1. change the color using `generateColors` attributes, which is rgb.
-1. set the opacity of by adding 1.
+1. set the opacity of by adding 0.1.
 
 # generateColor function
 1. generate a number using math random, dont exceed to 255 and store to let `red`
