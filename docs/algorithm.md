@@ -11,7 +11,7 @@
 
 # generateBox function
 1. select the `main-content` class.
-1. add a `click` event listener to main-content class and a function declaration inside it.
+1. add a `click` event listener to `adjust-btn` class and a function declaration inside it.
     ## function declaration
     1. make a for statement, set a variable called `row` with value of 0, it should not be bigger in the `boxes` value, each iteration should add 1 on row value, label this loop `rowGenerator`
     ### While inside `rowGenerator` loop.
