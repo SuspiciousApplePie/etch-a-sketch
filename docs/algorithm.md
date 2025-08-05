@@ -26,12 +26,15 @@
         1. append it to `sketch-row`
 
 # changeCellColor function
-1. select the `sketch-box` element.
+1. select the `sketch-box` element within the `.main-content` element.
 1. add a `mouseover` event listener on it.
-1. if the event target class is `cell`
-1. get the rgb color using `generateColors` function
-1. change the color using `generateColors` attributes, which is rgb.
-1. set the opacity of by adding 0.1.
+1. when the event triggers
+    1. if the event target class contains `.cell`
+        1. get the rgb color using `generateColors` function
+        1. change the color using `generateColors` attributes, which is rgb.
+        1. get the opacity value of `.cell`
+        1. if the opacity value of .cell is less than 1.0
+            1. increase the opacity by 1
 
 # generateColor function
 1. generate a number using math random, dont exceed to 255 and store to let `red`
