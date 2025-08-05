@@ -32,3 +32,8 @@
 1. get the rgb color using `generateColors` function
 4. change the color using `generateColors` attributes, which is rgb.
 5. set the opacity of by adding 1.
+
+# generateColor function
+1. generate a number using math random, dont exceed to 255 and store to let `red`
+2. repeat step and store it to let `green`, and `blue`.
+3. return all of it in array format.
