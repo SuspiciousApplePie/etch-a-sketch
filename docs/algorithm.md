@@ -34,12 +34,11 @@
         1. change the color using `generateColors` attributes, which is rgb.
         1. get the opacity value of `.cell`
         1. if the opacity value of .cell is less than 1.0
-            1. increase the opacity by 1
+            1. increase the opacity by 0.1
 
 # generateColor function
-1. generate a number using math random, dont exceed to 255 and store to let `red`
-1. repeat step and store it to let `green`, and `blue`.
-1. return all of it in array format.
+1. generate a number using math random thrice, assign it on `red`, `green`, `blue` variables
+2. return it as a list in red, green, blue format. 
 
 # clearBox functon
 1. select all `sketch-row` element
