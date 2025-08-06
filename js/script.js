@@ -12,13 +12,17 @@ function initGrid (size) {
         } else if (size.length === 0) {
             alert('Empty input');
         } else if (!Number.isInteger(Number(size))) {
-            alert('Please enter a number');
+            alert('Please enter a whole number');
         } else if (Number(size) < 1 || Number(size) > 100) {
             alert('Your input is lower than 1 or higher than 100');
         } else {
-            console.log('clearBox');
+            return clearBox(size);
         }
     })
+}
+
+function clearBox(size) {
+    console.log(size);
 }
 
 init();
