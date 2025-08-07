@@ -26,6 +26,7 @@ function clearBox(size) {
     for (let row = 0; row < size; row++) {
         console.log(`row: ${row}`);
         const sketchRow = document.createElement('div');
+        sketchRow.className = 'sketch-row';
         console.log(sketchRow);
         // for (let cell = 0; cell < size; cell++) {
         //     console.log(`cell; ${cell}`)
