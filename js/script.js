@@ -30,6 +30,7 @@ function generateBox(size) {
         for (let cell = 0; cell < size; cell++) {
             console.log(`cell; ${cell}`)
             const sketchCell = document.createElement('div');
+            sketchCell.className = 'cell';
             console.log(sketchCell);
         }
     }
