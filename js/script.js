@@ -22,7 +22,7 @@ function initGrid (size) {
 }
 
 function clearBox(size) {
-    console.log(size);
+    const sketchBox = document.querySelector('.sketch-box');
 }
 
 init();
