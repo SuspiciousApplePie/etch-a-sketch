@@ -47,6 +47,7 @@ body {
 
 .cell {
     border: 1px solid #333;
+    flex: 1;
 }
 
 .footer-content {
