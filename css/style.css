@@ -48,7 +48,7 @@ body {
 }
 
 .cell {
-    border: 1px solid #333;
+    border: 1px solid #dcdcdc;
     flex: 1;
 }
 
