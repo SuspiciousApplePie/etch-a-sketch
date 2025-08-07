@@ -16,18 +16,19 @@ function initGrid (size) {
         } else if (Number(size) < 1 || Number(size) > 100) {
             alert('Your input is lower than 1 or higher than 100');
         } else {
-            return clearBox(size);
+            return generateBox(size);
         }
     })
 }
 
-function clearBox(size) {
+function generateBox(size) {
     const sketchBox = document.querySelector('.sketch-box');
     for (let row = 0; row < size; row++) {
         console.log(`row: ${row}`);
         const sketchRow = document.createElement('div');
         sketchRow.className = 'sketch-row';
         console.log(sketchRow);
+        sketchBox.appendChild(sketchRow);
         // for (let cell = 0; cell < size; cell++) {
         //     console.log(`cell; ${cell}`)
         // }
