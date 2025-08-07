@@ -24,10 +24,8 @@ function initGrid (size) {
 function generateBox(size) {
     const sketchBox = document.querySelector('.sketch-box');
     for (let row = 0; row < size; row++) {
-        console.log(`row: ${row}`);
         const sketchRow = document.createElement('div');
         sketchRow.className = 'sketch-row';
-        console.log(sketchRow);
         sketchBox.appendChild(sketchRow);
         for (let cell = 0; cell < size; cell++) {
             console.log(`cell; ${cell}`)
