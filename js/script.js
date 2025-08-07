@@ -29,9 +29,9 @@ function generateBox(size) {
         sketchRow.className = 'sketch-row';
         console.log(sketchRow);
         sketchBox.appendChild(sketchRow);
-        // for (let cell = 0; cell < size; cell++) {
-        //     console.log(`cell; ${cell}`)
-        // }
+        for (let cell = 0; cell < size; cell++) {
+            console.log(`cell; ${cell}`)
+        }
     }
 }
 
