@@ -17,9 +17,17 @@ function initGrid (size) {
         } else if (Number(size) < 1 || Number(size) > 100) {
             alert('Your input is lower than 1 or higher than 100');
         } else {
-            return generateBox(size);
+            clearBox();
+            // return generateBox(size);
         }
     })
+}
+
+function clearBox() {
+    const sketchRow = document.querySelectorAll('.sketch-row');
+    if (sketchRow) {
+        console.log('Delete row.');
+    }
 }
 
 function generateBox(size) {
