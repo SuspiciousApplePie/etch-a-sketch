@@ -36,6 +36,7 @@ body {
 }
 .main-content .sketch-box {
     display: flex;
+    flex-direction: column;
     border: 1px solid #333;
     width: 450px;
     height: 450px;
