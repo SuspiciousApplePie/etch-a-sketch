@@ -23,6 +23,9 @@ function initGrid (size) {
 
 function clearBox(size) {
     const sketchBox = document.querySelector('.sketch-box');
+    for (let row = 0; row < size; row++) {
+        console.log(row);
+    }
 }
 
 init();
