@@ -1,5 +1,6 @@
 function init() {
     let size;
+    generateBox(16);
     return initGrid(size);
 }
 
@@ -32,7 +33,7 @@ function generateBox(size) {
             const sketchCell = document.createElement('div');
             sketchCell.className = 'cell';
             console.log(sketchCell);
-            sketchRow.appendChild(sketch);
+            sketchRow.appendChild(sketchCell);
         }
     }
 }
