@@ -29,6 +29,8 @@ function generateBox(size) {
         sketchBox.appendChild(sketchRow);
         for (let cell = 0; cell < size; cell++) {
             console.log(`cell; ${cell}`)
+            const sketchCell = document.createElement('div');
+            console.log(sketchCell);
         }
     }
 }
