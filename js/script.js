@@ -18,7 +18,7 @@ function initGrid (size) {
             alert('Your input is lower than 1 or higher than 100');
         } else {
             clearBox();
-            // return generateBox(size);
+            return generateBox(size);
         }
     })
 }
@@ -26,7 +26,9 @@ function initGrid (size) {
 function clearBox() {
     const sketchRow = document.querySelectorAll('.sketch-row');
     if (sketchRow) {
-        console.log('Delete row.');
+        sketchRow.forEach((row) => {
+            row.remove();
+        })
     }
 }
 
