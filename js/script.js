@@ -1,8 +1,7 @@
 function init() {
     let size;
-    generateColors()
-    // generateBox(16);
-    // return initGrid(size);
+    generateBox(16);
+    return initGrid(size);
 }
 
 function initGrid (size) {
