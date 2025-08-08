@@ -50,7 +50,8 @@ function generateBox(size) {
 
 function changeCellColor (e) {
     if (e.target.className === 'cell') {
-        console.log('cell');
+        const rgb = generateColors();
+        console.log(rgb);
     }
 } 
 
