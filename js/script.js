@@ -47,7 +47,7 @@ function generateBox(size) {
 }
 
 function generateColors () {
-    
+    let colors = [];
 }
 
 init();
