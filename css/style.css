@@ -5,11 +5,12 @@
     margin: 0;
     padding: 0;
     font-family: "Bitcount", sans-serif;
+    color: #9966CC;
 }
 
 body {
     min-height: 100vh;
-    background-image: url("")
+    background-image: url("../img/background.jpeg")
 }
 
 .container {
@@ -52,7 +53,6 @@ body {
 }
 
 .cell {
-    border: 1px solid #dcdcdc;
     flex: 1;
 }
 
