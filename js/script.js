@@ -1,15 +1,15 @@
 function init() {
-    let size;
     const sketchBox = document.querySelector('.sketch-box');
+    const adjustBtn = document.querySelector('.adjust-btn');
+    
     sketchBox.addEventListener('mouseover', changeCellColor);
-    generateBox(16);
-    return initGrid(size);
+    adjustBtn.addEventListener('click', initGrid);
+    
+    generateBox();
 }
 
-function initGrid (size) {
-    const adjustBtn = document.querySelector('.adjust-btn');
-    adjustBtn.addEventListener('click', () => {
-        size = prompt('Set the grid (1-100):');
+function initGrid () {
+        let size = prompt('Set the grid (1-100):');
         if (size === null) {
             return;
         } else if (size.length === 0) {
@@ -22,7 +22,6 @@ function initGrid (size) {
             clearBox();
             return generateBox(size);
         }
-    })
 }
 
 function clearBox() {
@@ -34,7 +33,7 @@ function clearBox() {
     }
 }
 
-function generateBox(size) {
+function generateBox(size = 16) {
     const sketchBox = document.querySelector('.sketch-box');
     for (let row = 0; row < size; row++) {
         const sketchRow = document.createElement('div');
