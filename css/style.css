@@ -64,4 +64,6 @@ body {
     align-items: center;
     margin-top: 15px;
     height: 7vmin;
+    color: #333;
+    font-size: 1.3em;
 }
