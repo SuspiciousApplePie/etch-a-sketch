@@ -1,19 +1,18 @@
 # initGrid function.
-1. Add event listener to button in adjust-button section.
-1. Selecting this button will trigger a prompt.
+1. create a `let` that takes a number value named `size`
 1. Prompt will ask whats the size of the box store it on `size`
 1. check if input is more than 100, or less than one trigger an alert.
 1. check if input is not number and trigger an alert.
 1. if false:
-    1. call clearBox
-    1. pass the size to `generateBox`
+    1. call `clearBox()`
+    1. pass the size to `generateBox()`
 
 # init function.
-1. create a `let` that takes a number value named `size`
+1. Add event listener to button in adjust-button section.
+1. Selecting this button will trigger a `initGrid()`.
 1. select the `sketch-box` element within the `.main-content` element.
 1. add a `mouseover` event listener on it.
-1. call initGrid() with 16 as param.
-1. use `size` to `initGrid` parameter.
+1. call `generateBox()` no parameter.
 
 # generateBox function
 1. select the `sketch-box` class within the .main-content element.
@@ -31,14 +30,17 @@
 # changeCellColor function
 1. if the event target class contains `.cell`
     1. get the rgb color using `generateColors` function
-    1. change the color using `generateColors` attributes, which is rgb.
-    1. get the opacity value of `.cell`
-    1. if the opacity value of .cell is less than 1.0
-        1. increase the opacity by 0.1
+    1. change the backgroundColor using `generateColors` that is converted to string.
+    1. if there is no opacity value
+        1. set the opacity value to 0.1
+    1. else if value of `Number` converted opacity value is less than 1.0
+        1. add 0.1 on opacity value 
 
 # generateColor function
-1. generate a number using math random thrice, assign it on `red`, `green`, `blue` variables
-1. return it as a list in red, green, blue format. 
+1. create an empty of `colors`
+1. generate a number using math random thrice using for loop
+    1. on each loop assign the generated number to `colors`
+1. return colors
 
 # clearBox functon
 1. select all `sketch-row` element
