@@ -43,7 +43,6 @@ body {
 .main-content .sketch-box {
     display: flex;
     flex-direction: column;
-    background-color: #333;
     border: 5px groove #9966CC;
     width: 960px;
     height: 960px;
