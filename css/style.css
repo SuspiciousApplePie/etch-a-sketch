@@ -40,6 +40,8 @@ body {
     width: 30%;
     padding: 10px;
     font-size: 1.3em;
+    background-color: #9966CC;
+    color: #f1f2f3;
 }
 .main-content .sketch-box {
     display: flex;
