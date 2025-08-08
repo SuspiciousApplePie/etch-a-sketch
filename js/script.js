@@ -53,6 +53,8 @@ function generateColors () {
         let color = Math.floor(Math.random() * 256);
         colors.push(color);
     }
+    console.log(colors);
+    return colors;
 }
 
 init();
