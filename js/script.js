@@ -50,14 +50,11 @@ function generateBox(size = 16) {
 function changeCellColor (e) {
     if (e.target.className === 'cell') {
         const rgb = generateColors();
-        console.log(rgb.toString());
         e.target.style.backgroundColor = `rgb(${rgb.toString()}`;
         if (e.target.style.opacity.length === 0) {
-            console.log(e.target.style.opacity)
             e.target.style.opacity = 0.1;    
         } else if (Number(e.target.style.opacity) < 1.0){
             e.target.style.opacity = Number(e.target.style.opacity) + 0.1;
-            console.log(e.target.style.opacity)
         }
     }
 } 
@@ -68,7 +65,6 @@ function generateColors () {
         let color = Math.floor(Math.random() * 256);
         colors.push(color);
     }
-    console.log(colors);
     return colors;
 }
 
