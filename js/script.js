@@ -50,7 +50,7 @@ function generateBox(size = 16) {
 function changeCellColor (e) {
     if (e.target.className === 'cell') {
         const rgb = generateColors();
-        e.target.style.backgroundColor = `rgb(${rgb.toString()}`;
+        e.target.style.backgroundColor = `rgb(${rgb.toString()})`;
         if (e.target.style.opacity.length === 0) {
             e.target.style.opacity = 0.1;    
         } else if (Number(e.target.style.opacity) < 1.0){
