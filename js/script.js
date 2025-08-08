@@ -51,7 +51,8 @@ function generateBox(size) {
 function changeCellColor (e) {
     if (e.target.className === 'cell') {
         const rgb = generateColors();
-        console.log(rgb);
+        console.log(rgb.toString());
+        e.target.style.backgroundColor = `rgb(${rgb.toString()}`;
     }
 } 
 
