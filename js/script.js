@@ -46,4 +46,8 @@ function generateBox(size) {
     }
 }
 
+function generateColors () {
+    
+}
+
 init();
