@@ -39,6 +39,7 @@ body {
 .adjust-btn {
     width: 30%;
     padding: 10px;
+    font-size: 1.3em;
 }
 .main-content .sketch-box {
     display: flex;
