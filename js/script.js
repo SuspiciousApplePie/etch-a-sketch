@@ -46,6 +46,10 @@ function generateBox(size) {
     }
 }
 
+function changeCellColor (e) {
+
+} 
+
 function generateColors () {
     let colors = [];
     for (let i = 0; i < 3; i++) {
