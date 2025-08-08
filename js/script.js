@@ -1,5 +1,7 @@
 function init() {
     let size;
+    const sketchBox = document.querySelector('.sketch-box');
+    sketchBox.addEventListener('mouseover', changeCellColor);
     generateBox(16);
     return initGrid(size);
 }
